@@ -7,8 +7,7 @@ import java.lang.Character.isLetter
 fun main() {
     val lineList = mutableListOf<Int>()
 
-    // regex taken from stackoverflow https://stackoverflow.com/questions/10065885/split-text-file-into-strings-on-empty-line
-    val input = File("/home/felixfm/adventOfCode_2020/src/main/kotlin/day4/passports.txt").readText().split("\n\n")
+    val input = File("adventOfCode_2020/src/main/kotlin/day4/passports.txt").readText().split("\n\n")
 
     // produce a list of passports with data fields sorted as pairs
     val passList= input.map {
