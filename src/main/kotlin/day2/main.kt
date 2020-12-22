@@ -5,7 +5,7 @@ import java.io.File
 fun main() {
     val passwords = mutableListOf<List<String>>()
 
-    File("/home/felixfm/adventOfCode_2020/src/main/kotlin/day2/passwords.txt").useLines { lines ->
+    File("adventOfCode_2020/src/main/kotlin/day2/passwords.txt").useLines { lines ->
         lines.forEach { passwords.add(it.split(" ", ":"))}
     }
 

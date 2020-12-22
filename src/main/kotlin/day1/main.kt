@@ -9,7 +9,7 @@ fun main(args: Array<String>) {
     // author: Anisuzzaman Babla
     val lineList = mutableListOf<Int>()
 
-    File("/home/felixfm/adventOfCode_2020/src/main/kotlin/day1/day1.1.txt").useLines { lines ->
+    File("adventOfCode_2020/src/main/kotlin/day1/day1.1.txt").useLines { lines ->
         lines.forEach { lineList.add(it.toInt()) }
     }
     // stackoverflow end
